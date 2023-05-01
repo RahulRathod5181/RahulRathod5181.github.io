@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+.mainAbout{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.top{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+.left img{
+    width:100%;
+    border-radius:17px;
+}
+
+.left {
+    width:40%;
+    display: inline-block;
+    border-radius:17px;
+    /* border: 1px solid white; */
+    box-shadow: rgb(255, 251, 251) 0px 54px 55px, #078cbe9c 0px -12px 30px, #078cbe9c 0px 4px 6px, #078cbe9c 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.right{
+    width:50%
+}
+.right li{
+    list-style: none;
+}

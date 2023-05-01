@@ -18,11 +18,11 @@ function App() {
       </ChakraProvider>
       <Home/>
       <About/>
-      <Skills/>
-      <Github/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      {/* <Skills/> */}
+      {/* <Github/> */}
+      {/* <Projects/> */}
+      {/* <Contact/> */}
+      {/* <Footer/> */}
     </div>
   );
 }

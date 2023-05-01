@@ -96,6 +96,7 @@ const Home = () => {
         <div className={style.right}>
         </div>
       </div>
+      {/* <h2 style = {{textAlign:"center", fontSize:"19px", fontWeight:"bold" }}>Work is in the progress...</h2> */}
     </div>
   )
 }
