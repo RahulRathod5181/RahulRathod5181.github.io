@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.a007adf0.css",
-    "main.js": "/static/js/main.5fc8999b.js",
+    "main.css": "/static/css/main.848fc6a9.css",
+    "main.js": "/static/js/main.6e66cc71.js",
     "static/js/787.d85ee6f7.chunk.js": "/static/js/787.d85ee6f7.chunk.js",
     "static/media/LimeRoad.mp4": "/static/media/LimeRoad.5991108c1517054b6a2c.mp4",
     "static/media/leftGif.gif": "/static/media/leftGif.afec7d0266d1ddadfaee.gif",
+    "static/media/Wrike.mp4": "/static/media/Wrike.2b3cfda58491e3b5c06a.mp4",
+    "static/media/Firstcry.mp4": "/static/media/Firstcry.558e4f79fa4fab97f04e.mp4",
+    "static/media/Meesho.mp4": "/static/media/Meesho.81bc17c3a5fc90b6c76a.mp4",
     "static/media/ContactBG.png": "/static/media/ContactBG.419fe8d256d22e8e0cee.png",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
     "static/media/Rahul_Resume.pdf": "/static/media/Rahul_Resume.05691d9504ec4977ff9c.pdf",
@@ -20,12 +23,12 @@
     "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.a007adf0.css.map": "/static/css/main.a007adf0.css.map",
-    "main.5fc8999b.js.map": "/static/js/main.5fc8999b.js.map",
+    "main.848fc6a9.css.map": "/static/css/main.848fc6a9.css.map",
+    "main.6e66cc71.js.map": "/static/js/main.6e66cc71.js.map",
     "787.d85ee6f7.chunk.js.map": "/static/js/787.d85ee6f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a007adf0.css",
-    "static/js/main.5fc8999b.js"
+    "static/css/main.848fc6a9.css",
+    "static/js/main.6e66cc71.js"
   ]
 }
