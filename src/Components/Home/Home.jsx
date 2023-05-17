@@ -34,12 +34,12 @@ const Home = () => {
           <div className={style.mainName}>
             <h1>Rahul</h1>
           </div>
-          <div>
-            <h1 style={{  fontWeight: "bold", fontSize: "30px" }}>
+          
+            <h1 style={{  fontWeight: "bold", fontSize: "36px" }}>
               I'm a
               <span style={{ fontWeight: "bold", color: "rgb(255 152 56)" }}>
                 <Typewriter
-                  words={[' Fullstack Developer.']}
+                  words={[' Fullstack Developer.','  B.Tech Engineer.']}
                   loop={Infinity}
                   cursor
                   cursorStyle='|'
@@ -49,27 +49,27 @@ const Home = () => {
                 />
               </span>
             </h1>
-          </div>
+
           {/* ====================social========================== */}
           <div className={style.social}>
             <div>
               <a>
-                <ImLinkedin />
+                <ImLinkedin size={"26px"} />
               </a>
             </div>
             <div>
               <a>
-                <AiFillGithub />
+                <AiFillGithub size={"26px"} />
               </a>
             </div>
             <div>
               <a>
-                <RiMailFill />
+                <RiMailFill size={"26px"} />
               </a>
             </div>
             <div>
               <a>
-                <BiPhoneCall />
+                <BiPhoneCall size={"26px"} />
               </a>
             </div>
 
@@ -80,7 +80,7 @@ const Home = () => {
                     "https://drive.google.com/file/d/1oUG0-EfArwMZ74GxSaxT9QKL8VYQdoK1/view?usp=share_link"
                   )}>
               <p>Resume</p>
-              <BsEyeFill/>
+              <BsEyeFill size={"26px"}/>
             </div>
             <Link href=""
               className="home-resume"
@@ -88,12 +88,13 @@ const Home = () => {
               // download = {rahul_resume}
               download = "Rahul_Resume.pdf"> 
             <div className={style.download2}>
-              <HiDownload />
+              <HiDownload size={"26px"} />
             </div>
             </Link>
           </div>
         </div>
         <div className={style.right}>
+          
         </div>
       </div>
       {/* <h2 style = {{textAlign:"center", fontSize:"19px", fontWeight:"bold" }}>Work is in the progress...</h2> */}

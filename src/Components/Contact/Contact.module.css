@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+.top{
+    margin-top: 100px;
+}
+
+.top h2{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+.top hr{
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 45px;
+    width:18%;
+    text-align: center;
+    height:5px;
+    /* border-width: 10; */
+    border-width: 1px;
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    border-radius: 1px;
+    border:0;
+}
+
+.contactMain{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    border: 1px solid darkorange ;
+}
+.contactMain > div:nth-child(1){
+    width: 30%;
+    /* border: 1px solid lavender; */
+}
+.contactMain > div:nth-child(2){
+    width: 40%;
+    margin-top: 30px;
+}
+
+.allContact{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border: 1px solid navajowhite; */
+    /* justify-content: space-evenly; */
+    gap: 22px;
+}
+.allContact>div{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    /* border: 1px solid pink; */
+    border-radius: 5px;
+    padding: 8px;
+}
+.allContact>div:nth-child(1){
+    background-color: #0a66c2;
+    border: 1px solid #0a66c2;
+    color: #ffffff;
+    cursor: pointer;
+}
+.allContact>div:nth-child(1):hover{
+    background-color: #ffffff;
+    /* border: 1px solid #0a66c2; */
+    color: #0a66c2;
+}
+.allContact>div:nth-child(2){
+    background-color: #3f3d55;
+    color: #ffffff;
+    cursor: pointer;
+}
+.allContact>div:nth-child(2):hover{
+    background-color: #ffffff;
+    border: 1px solid #3f3d55;
+    color: #3f3d55;
+}
+.allContact>div:nth-child(3){
+    background-color: #f04244;
+    color: #ffffff;
+    cursor: pointer;
+}
+.allContact>div:nth-child(3):hover{
+    background-color: #ffffff;
+    border: 1px solid #f04244;
+    color: #f04244;
+}
+.allContact>div:nth-child(4){
+    background-color: #4db946;
+    width: 50%;
+    color: #ffffff;
+    cursor: pointer;
+}
+.allContact>div:nth-child(4):hover{
+    background-color: #ffffff;
+    border: 1px solid #4db946;
+    color: #4db946;
+}
+.allContact>div>p{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.getTouch{
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 20px;
+}

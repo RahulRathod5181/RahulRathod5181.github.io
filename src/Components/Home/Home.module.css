@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
 
 .home{
-    width: 95%;
+    /* border: 1px solid wheat; */
+    max-width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -23,7 +24,7 @@
 
 .UpperName h1{
     font-weight: bold;
-    font-size: 23px;
+    font-size: 26px;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -34,7 +35,7 @@
 
 .mainName h1{
     font-weight: bold;
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Noto Sans', sans-serif;
     text-align: left;
     /* margin-left: 30px; */
@@ -48,12 +49,13 @@
     background-size: cover;
     /* box-shadow: inset 0 0 0 9px rgba(219, 126, 34, 0.814); */
     box-shadow: inset 0 0 0 9px #078cbe9c;
+
     
 
     order: 1;
     justify-self: center;
-    width: 350px;
-    height: 370px;
+    width: 400px;
+    height: 420px;
     margin-top: 20px;
     animation: profile__animate 6s ease-in-out infinite;
 }
@@ -72,13 +74,14 @@
 
 
 .social{
-    width:34%;
+    width:39%;
     /* border: 1px solid yellow; */
     margin: 0px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
     margin-top: 13px;
+    margin-bottom: 20px;
 
 }
 

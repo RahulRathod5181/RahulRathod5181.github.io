@@ -1,35 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
 .mainAbout{
-    width: 90%;
+    max-width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    margin-top: 100px;
     justify-content: space-between;
 }
 
 .top{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.top h2{
     margin-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-size: 29px;
     font-weight: bold;
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
 }
+.top hr{
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 45px;
+    width:18%;
+    text-align: center;
+    height:5px;
+    border-width: 1px;
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    border-radius: 1px;
+    border:0;
+}
+
+
 .left img{
     width:100%;
+    height:auto;
     border-radius:17px;
+    
+
 }
 
 .left {
-    width:40%;
+    max-width:40%;
     display: inline-block;
     border-radius:17px;
     /* border: 1px solid white; */
+    margin-bottom: 20px;
     box-shadow: rgb(255, 251, 251) 0px 54px 55px, #078cbe9c 0px -12px 30px, #078cbe9c 0px 4px 6px, #078cbe9c 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .right{
     width:50%
 }
-.right li{
-    list-style: none;
+
+.right h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-align: left;
+    line-height: 29px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-family: 'Noto Sans', sans-serif;
 }

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
+.top {
+    margin-top: 100px;
+}
+
+.top h2 {
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.top hr {
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 45px;
+    width: 18%;
+    text-align: center;
+    height: 5px;
+
+    border-width: 1px;
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    border-radius: 1px;
+    border: 0;
+}
+
+.projectMain {
+    width: 82%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.projectCard {
+    width: 95%;
+    border-image: linear-gradient(#feac5e,#c779d0, #4bc0c8) 30;
+
+
+    border-width: 3px;
+    border-style: solid;
+    background-color: black;
+    color: #ffffff;
+}
+
+.projectCard img {
+    display: none;
+}
+
+
+
+.projectCard>p:nth-child(2) {
+    border: 1ps solid chartreuse;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.projectCard>p:nth-child(3) {
+    margin-left: 26px;
+    margin-right: 26px;
+    color: #aeb2ba;
+    font-weight: 500;
+    margin: 8px 26px 19px 26px;
+}
+
+
+.duration{
+    display: flex;
+    gap: 2px;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+.duration>p:nth-child(1),
+.projectCard>p:nth-child(6) {
+    margin-left: 26px;
+
+    font-weight: bold;
+
+}
+
+
+.tech>p{
+    margin-left: 26px;
+    font-weight: bold;
+    color: #ff9157;
+}
+
+
+.duration>p:nth-child(2),.duration>p:nth-child(3){
+    font-weight: bold;
+    padding-left: 5px;
+   
+}
+
+.linkButton{
+    width: 40%;
+    display: flex;
+    margin: auto;
+    margin: 15px auto 15px auto;
+    justify-content: space-between;
+}
+
+.linkButton>div{
+    padding: 6px;
+    border: 1px solid hotpink;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(255, 248, 248, 0.548) 0px 5px 15px;
+}
+.linkButton>div:hover{
+    background-color: white;
+    color: black;
+}
+

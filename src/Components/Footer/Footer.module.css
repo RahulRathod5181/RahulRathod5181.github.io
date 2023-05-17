@@ -1,0 +1,30 @@
+.top{
+    max-width: 90%;
+    border: 1px solid honeydew;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.top h2{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+.top hr{
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    margin-bottom: 45px;
+    width:18%;
+    text-align: center;
+    height:5px;
+    border-width: 1px;
+    background: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+    border-radius: 1px;
+    border:0;
+}
