@@ -24,7 +24,7 @@ const Projects = () => {
 
 
   return (
-    <div className="projects-projects" id="projects">
+    <div className="projects-projects" id="projects"  style={{maxWidth:"100%"}}>
       <div className={styles.container}>
       <div className={styles.top}>
         <h2 data-aos="fade-left" data-aos-duration="1000" >My Projects</h2>

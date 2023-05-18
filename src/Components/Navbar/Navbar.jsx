@@ -72,7 +72,7 @@ export default function Navbar() {
   return (
     <>
       {/* <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} id="nav-menu" className="navbar"> */}
-      <Box bg={useColorModeValue('gray.900', 'gray.100')} px={4} id="nav-menu" className="navbar" position={"sticky"} top={0} zIndex={1} >
+      <Box bg={useColorModeValue('gray.900', 'gray.100')} px={4} id="nav-menu" className="navbar" position={"sticky"} top={0} zIndex={1} w={"100%"} >
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'} color={useColorModeValue('gray.100', 'gray.900')}>
           <Link
             to="home"
@@ -80,11 +80,11 @@ export default function Navbar() {
             as={ScrollLink}
             textDecoration="none"
             offset={-100}
-            duration={500}
+            duration={700}
             className="nav-link home"
             fontWeight="bold"
-            fontSize={{ base: "18px", sm: "27px" }}
-            color={useColorModeValue("rgb(200 100 50)", "rgb(42 92 135)")}
+            fontSize={{ base: "24px", sm: "29px" }}
+            color={useColorModeValue("rgb(226 130 81)", "rgb(36 66 118)")}
 
             ml="10px"
           >
@@ -95,7 +95,7 @@ export default function Navbar() {
             as={ScrollLink}
             smooth={"true"}
             offset={-79}
-            duration={500}
+            duration={700}
             className="nav-link about"
             display={{ base: "none", sm: "block" }}
 
@@ -109,7 +109,7 @@ export default function Navbar() {
             as={ScrollLink}
             smooth={"true"}
             offset={-79}
-            duration={500}
+            duration={700}
             className="nav-link skills"
             display={{base:"none",sm:"block"}}
           >
@@ -119,10 +119,11 @@ export default function Navbar() {
             spy={true}
             as={ScrollLink}
             smooth={true}
-            duration={500}
+            duration={700}
             px={2}
             py={1}
             rounded={"md"}
+            display={{ base: "none", sm: "block" }}
             // color={"white"}
             // _hover={{
             //   textDecoration: "none",
@@ -139,7 +140,7 @@ export default function Navbar() {
             as={ScrollLink}
             smooth={"true"}
             offset={-79}
-            duration={500}
+            duration={700}
             className="nav-link projects"
             display={{ base: "none", sm: "block" }}
           >
@@ -150,7 +151,7 @@ export default function Navbar() {
             as={ScrollLink}
             smooth={"true"}
             offset={-79}
-            duration={500}
+            duration={700}
             className="nav-link contact"
             display={{ base: "none", sm: "block" }}
           >
@@ -217,15 +218,16 @@ export default function Navbar() {
                   <Center>
                     <p>Username</p>
                   </Center>
-                  <br /> */}
-                  <MenuDivider />
+                  <br />
+                  <MenuDivider /> */}
                   <MenuItem bg={useColorModeValue('gray.900', 'gray.100')}>
                     <Link
                       to="about"
+                      as={ScrollLink}
                       smooth={"true"}
-                      // offset={-79}
-                      duration={500}
-                      py={"15vh"}
+                      offset={-79}
+                      duration={700}
+                      // py={"15vh"}
                       px={"md"}
 
                     >
@@ -235,9 +237,10 @@ export default function Navbar() {
                   <MenuItem bg={useColorModeValue('gray.900', 'gray.100')}>
                     <Link
                       to="skills"
+                      as={ScrollLink}
                       smooth={"true"}
                       // offset={-79}
-                      duration={500}
+                      duration={700}
                       
                     >
                       Skills
@@ -246,9 +249,10 @@ export default function Navbar() {
                   <MenuItem bg={useColorModeValue('gray.900', 'gray.100')}>
                     <Link
                       to="projects"
+                      as={ScrollLink}
                       smooth={"true"}
                       offset={-79}
-                      duration={500}
+                      duration={700}
 
                     >
                       Projects
@@ -257,9 +261,10 @@ export default function Navbar() {
                   <MenuItem bg={useColorModeValue('gray.900', 'gray.100')}>
                     <Link
                       to="contact"
+                      as={ScrollLink}
                       smooth={"true"}
                       offset={-79}
-                      duration={500}
+                      duration={700}
 
                     >
                       Contact

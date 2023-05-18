@@ -35,7 +35,7 @@ const Skills = () => {
     AOS.init();
   }, [colorMode])
   return (
-    <div className="skills-main" id="skills">
+    <div className="skills-main" id="skills" style={{padding:"4vh",maxWidth:"100%"}}>
       <div className={styles.top}>
         <h2 data-aos="fade-left" data-aos-duration="700">Skills</h2>
         <hr data-aos="fade-right" data-aos-duration="700" ></hr>

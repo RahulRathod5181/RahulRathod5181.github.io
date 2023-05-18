@@ -5,7 +5,7 @@ import styles from "./Github.module.css"
 const Github = () => {
   
   return (
-    <div >
+    <div style={{maxWidth:"100%"}} >
       <div className={styles.top}>
         <h2 data-aos="fade-left" data-aos-duration="700">Github Overview</h2>
         <hr data-aos="fade-right" data-aos-duration="700" ></hr>

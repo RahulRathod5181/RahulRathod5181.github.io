@@ -35,11 +35,11 @@ function App() {
     );
   }
   return (
-    <div className="App" style={{margin:"0px", padding:"0px",maxWidth:"100%"}} >
+    <div className="App" style={{margin:"0px", padding:"0px"}} >
 
       <Navbar />
       
-      <Home />
+      <Home/>
       <About />
       <Skills />
       <Projects />

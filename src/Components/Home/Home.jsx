@@ -22,7 +22,7 @@ const Home = () => {
   };
 
   return (
-    <div className="home-main" id="home">
+    <div className="home-main" id="home" style={{width:"100%"}}>
       <div className={style.home} >
         <div className={style.left}>
           {/* ============upper name=========== */}
@@ -35,7 +35,7 @@ const Home = () => {
             <h1>Rahul</h1>
           </div>
           
-            <h1 style={{  fontWeight: "bold", fontSize: "36px" }}>
+          <h1 >
               I'm a
               <span style={{ fontWeight: "bold", color: "rgb(255 152 56)" }}>
                 <Typewriter
@@ -48,7 +48,7 @@ const Home = () => {
                   delaySpeed={2000}
                 />
               </span>
-            </h1>
+          </h1>
 
           {/* ====================social========================== */}
           <div className={style.social}>

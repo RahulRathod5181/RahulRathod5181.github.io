@@ -32,18 +32,27 @@ const Contact = () => {
                     <AiFillGithub id="contact-github" size={"20px"}/> 
                     <p>Github</p>
                 </div>
-                <div id="contact-email">
+                {/* <div id="contact-email">
                     <RiMailFill id="contact-email" size={"18px"} /> 
                     <p>Gmail</p>
                 </div>
                 <div id="contact-phone">
                     <BiPhoneCall id="contact-email" size={"18px"}/>
-                </div>
+                </div> */}
             </div>
             <div className={styles.getTouch}>
               <p>Get In <span style={{color:"#4bc0c8"}}>Touch</span></p>
             </div>
-            <Form/>
+            <div className={styles.directContact}>
+              <div>
+              <RiMailFill id="contact-email" size={"27px"}  />
+              <p>: rahulrathod5181@gmail.com</p> 
+              </div>
+              <div>
+              <BiPhoneCall id="contact-email" size={"27px"}/>
+              <p>: +919650915181</p>
+              </div>
+            </div>
           </div>
       </div>
     </div>
