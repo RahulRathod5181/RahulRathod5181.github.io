@@ -35,7 +35,7 @@ function App() {
     );
   }
   return (
-    <div className="App" style={{margin:"0px", padding:"0px"}} >
+    <div className="App" style={{margin:"0px", padding:"0px",maxWidth:"100%"}} >
 
       <Navbar />
       

@@ -19,6 +19,8 @@ import {
   Text,
 } from '@chakra-ui/react';
 
+
+
 // import {Link} from "react-router-dom"
 import { Link as ScrollLink } from "react-scroll"
 
@@ -26,7 +28,7 @@ import { extendTheme } from '@chakra-ui/react'
 
 // 2. Update the breakpoints as key-value pairs
 
-import rahul_resume from "../../Docs/Rahul_Resume.pdf"
+
 import { HiDownload } from "react-icons/hi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
@@ -72,7 +74,8 @@ export default function Navbar() {
   return (
     <>
       {/* <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} id="nav-menu" className="navbar"> */}
-      <Box bg={useColorModeValue('gray.900', 'gray.100')} px={4} id="nav-menu" className="navbar" position={"sticky"} top={0} zIndex={1} w={"100%"} >
+      {/* <Box bg={useColorModeValue('gray.900', 'gray.100')} px={4} id="nav-menu" className="navbar" position={"sticky"} top={0} zIndex={1} w={"100%"} > */}
+      <Box bg={useColorModeValue('gray.900', 'gray.100')} px={4} id="nav-menu" className="navbar" position={"sticky"} top={0} zIndex={1} maxW={"100%"} >
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'} color={useColorModeValue('gray.100', 'gray.900')}>
           <Link
             to="home"
@@ -166,7 +169,7 @@ export default function Navbar() {
             id="resume-link-1"
 
             // download = {rahul_resume}
-            download="Rahul_Resume.pdf"
+            download="Rahul-Resume.pdf"
             display={{ base: "none", sm: "block" }}
           >
             <Link
