@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.61d082bd.css",
-    "main.js": "/static/js/main.3a3b0b6a.js",
+    "main.css": "/static/css/main.411ee3cb.css",
+    "main.js": "/static/js/main.a50f111f.js",
     "static/js/787.d85ee6f7.chunk.js": "/static/js/787.d85ee6f7.chunk.js",
     "static/media/LimeRoad.mp4": "/static/media/LimeRoad.5991108c1517054b6a2c.mp4",
     "static/media/leftGif.gif": "/static/media/leftGif.afec7d0266d1ddadfaee.gif",
     "static/media/Wrike.mp4": "/static/media/Wrike.2b3cfda58491e3b5c06a.mp4",
     "static/media/Firstcry.mp4": "/static/media/Firstcry.558e4f79fa4fab97f04e.mp4",
     "static/media/Meesho.mp4": "/static/media/Meesho.81bc17c3a5fc90b6c76a.mp4",
+    "static/media/Rahul-Resume.pdf": "/static/media/Rahul-Resume.0f4565f283fcbc4bbad3.pdf",
     "static/media/ContactBG.png": "/static/media/ContactBG.419fe8d256d22e8e0cee.png",
     "static/media/chakraui.png": "/static/media/chakraui.15320604467d004df871.png",
-    "static/media/Rahul_Resume.pdf": "/static/media/Rahul_Resume.05691d9504ec4977ff9c.pdf",
     "static/media/Resume_photo.jpeg": "/static/media/Resume_photo.fa7a62109e92ee89b2a3.jpeg",
     "static/media/mongodb.svg": "/static/media/mongodb.6835c61a518a732eb8318d43dfe8f700.svg",
     "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
@@ -23,12 +23,12 @@
     "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.61d082bd.css.map": "/static/css/main.61d082bd.css.map",
-    "main.3a3b0b6a.js.map": "/static/js/main.3a3b0b6a.js.map",
+    "main.411ee3cb.css.map": "/static/css/main.411ee3cb.css.map",
+    "main.a50f111f.js.map": "/static/js/main.a50f111f.js.map",
     "787.d85ee6f7.chunk.js.map": "/static/js/787.d85ee6f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61d082bd.css",
-    "static/js/main.3a3b0b6a.js"
+    "static/css/main.411ee3cb.css",
+    "static/js/main.a50f111f.js"
   ]
 }
