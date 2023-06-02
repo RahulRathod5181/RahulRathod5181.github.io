@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.411ee3cb.css",
-    "main.js": "/static/js/main.a50f111f.js",
+    "main.css": "/static/css/main.9dd6c000.css",
+    "main.js": "/static/js/main.e6d29747.js",
     "static/js/787.d85ee6f7.chunk.js": "/static/js/787.d85ee6f7.chunk.js",
     "static/media/LimeRoad.mp4": "/static/media/LimeRoad.5991108c1517054b6a2c.mp4",
     "static/media/leftGif.gif": "/static/media/leftGif.afec7d0266d1ddadfaee.gif",
@@ -23,12 +23,12 @@
     "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "static/media/npm.svg": "/static/media/npm.87689eab730642c86d2b01f3ef4a19e3.svg",
-    "main.411ee3cb.css.map": "/static/css/main.411ee3cb.css.map",
-    "main.a50f111f.js.map": "/static/js/main.a50f111f.js.map",
+    "main.9dd6c000.css.map": "/static/css/main.9dd6c000.css.map",
+    "main.e6d29747.js.map": "/static/js/main.e6d29747.js.map",
     "787.d85ee6f7.chunk.js.map": "/static/js/787.d85ee6f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.411ee3cb.css",
-    "static/js/main.a50f111f.js"
+    "static/css/main.9dd6c000.css",
+    "static/js/main.e6d29747.js"
   ]
 }
